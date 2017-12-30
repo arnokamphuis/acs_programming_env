@@ -7,3 +7,10 @@ Cloning the repository requires the submodules to be initialized. Please use the
 ```
   git clone --recurse-submodules https://github.com/arnokamphuis/acs_programming_env
 ```
+
+# Updating the submodules
+Because some of the submodules have submodules themselves we need to update the submodules using the recursive command option.
+
+```
+  git submodule update --init --recursive
+```
