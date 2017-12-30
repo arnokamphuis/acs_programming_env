@@ -10,3 +10,6 @@
 [submodule "mathfu"]
 	path = mathfu
 	url = https://github.com/google/mathfu
+[submodule "tensorflow"]
+	path = tensorflow
+	url = https://github.com/tensorflow/tensorflow
